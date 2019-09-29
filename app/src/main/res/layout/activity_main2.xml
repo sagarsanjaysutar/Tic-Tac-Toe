@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:id="@+id/RL"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="50dp"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:layout_marginTop="30dp"
+        />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        >
+
+
+
+        <TableRow
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/b11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                 
+
+
+                />
+
+            <ImageView
+                android:id="@+id/b12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="20dp"
+
+                  />
+
+
+
+            <ImageView
+                android:id="@+id/b13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="3"
+                android:layout_margin="20dp"
+                  />
+
+        </TableRow>
+
+        <View style="@style/Divider" />
+
+        <TableRow android:gravity="center">
+
+            <ImageView
+                android:id="@+id/b21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                 
+
+
+                />
+
+            <ImageView
+                android:id="@+id/b22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="20dp"
+                 
+
+                />
+
+            <ImageView
+                android:id="@+id/b23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="3"
+                android:layout_margin="20dp"
+                 
+
+                />
+
+        </TableRow>
+
+
+        <View style="@style/Divider" />
+
+
+
+        <TableRow android:gravity="center"
+            android:layout_row="2"
+            android:layout_column="0"
+            >
+
+            <ImageView
+                android:id="@+id/b31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                 
+
+
+                />
+
+            <ImageView
+                android:id="@+id/b32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="20dp"
+                 
+
+
+                />
+
+            <ImageView
+                android:id="@+id/b33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="3"
+                android:layout_margin="20dp"
+                  />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/shapes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/shapes" />
+
+</RelativeLayout>
